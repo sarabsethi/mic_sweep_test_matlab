@@ -1,7 +1,7 @@
 clear variables;
 
 % Number of repeats of the test signal
-num_reps = 1;
+num_reps = 5;
 
 recObj = audiorecorder(44100,16,1,1);
 results = {};
